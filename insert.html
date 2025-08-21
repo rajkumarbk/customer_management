@@ -62,33 +62,11 @@
                 <option>Inside</option>
               </select>
             </div>
-            <div class="col-md-4">
-              <label class="form-label">Glass Destination</label>
-              <select id="glass" class="form-select" required>
-                <option value="">Select</option>
-                <option>FaR</option>
-                <option>FaL</option>
-                <option>FdR</option>
-                <option>FdL</option>
-                <option>Fv</option>
-                <option>SWR/L</option>
-                <option>SQR/L</option>
-                <option>RWH</option>
-                <option>RWR/L</option>
-                <option>Roof</option>
-              </select>
-            </div>
 
             <div class="col-md-4">
-              <label class="form-label">Staff</label>
+              <label class="form-label">Employee</label>
               <select id="staff" class="form-select" required>
-                <option value="">Select Staff</option>
-              </select>
-            </div>
-            <div class="col-md-4">
-              <label class="form-label">Assistant Staff</label>
-              <select id="assistant" class="form-select">
-                <option value="">Select Assistant</option>
+                <option value="">Select Employee</option>
               </select>
             </div>
 
@@ -112,13 +90,32 @@
             </div>
 
             <div class="col-md-4">
-              <label class="form-label">Car Plate Number</label>
-              <input type="text" id="plate" class="form-control" required>
-            </div>
-
-            <div class="col-md-4">
-              <label class="form-label">Start Work</label>
-              <input type="datetime-local" id="start" class="form-control" disabled>
+              <label class="form-label">Glass Destination</label>
+              <select id="glass" class="form-select" required>
+                <option value="">Select</option>
+                <option>LFW</option>
+                <option>FQR</option>
+                <option>FQL</option>
+                <option>FVR</option>
+                <option>FVL</option>
+                <option>FDR</option>
+                <option>FDL</option>
+                <option>RDR</option>
+                <option>RDL</option>
+                <option>RQR</option>
+                <option>RQL</option>
+                <option>SWR</option>
+                <option>SWL</option>
+                <option>SQR</option>
+                <option>SQL</option>
+                <option>RWH</option>
+                <option>RWR</option>
+                <option>RWL</option>
+                <option>RWM</option>
+                <option>BDR</option>
+                <option>BDL</option>
+                <option>Roof</option>
+              </select>
             </div>
 
             <div class="col-md-4">
@@ -129,10 +126,28 @@
               <label class="form-label">Customer Mobile</label>
               <input type="tel" id="mobile" class="form-control" value="05 " required>
             </div>
+
+            <div class="col-md-4">
+              <label class="form-label">Car Plate Number</label>
+              <input type="text" id="plate" class="form-control" required>
+            </div>
+
+
+
             <div class="col-md-4">
               <label class="form-label">Invoice No.</label>
               <input type="text" id="invoice" class="form-control" required>
             </div>
+
+
+
+            <div class="col-md-4">
+              <label class="form-label">Start Work</label>
+              <input type="datetime-local" id="start" class="form-control" disabled>
+            </div>
+
+
+
           </div>
         </div>
 
@@ -143,13 +158,22 @@
               <label class="form-label">End Time</label>
               <input type="datetime-local" id="end" class="form-control" disabled>
             </div>
+
+            <div class="col-md-4">
+              <label class="form-label">Assistant Staff</label>
+              <select id="assistant" class="form-select">
+                <option value="">Select Assistant</option>
+              </select>
+            </div>
+
             <div class="col-md-4">
               <label class="form-label">Photo (camera/gallery)</label>
               <input type="file" id="photo" class="form-control" accept="image/*" capture="environment">
               <img id="photoPreview" class="mt-2" alt="Preview">
             </div>
+
             <div class="col-12">
-              <label class="form-label">Remarks</label>
+              <label class="form-label">Notes</label>
               <textarea id="remarks" class="form-control" rows="3"></textarea>
             </div>
           </div>
