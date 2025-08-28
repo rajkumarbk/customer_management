@@ -72,7 +72,7 @@
     branch.addEventListener("change", () => {
       const list = staffData[branch.value] || [];
       fillSelect(staff, list, "Select Staff");
-      fillSelect(assistant, [""].concat(list), "Select Assistant");
+      fillSelect(assistant, list, "Select Assistant");
     });
 
     // ---------- Photo Preview ----------
